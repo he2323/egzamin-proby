@@ -1,0 +1,68 @@
+html body {
+    font-family: Helvetica;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+#lewyIprawy{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
+}
+#lewy{
+    background-color: navy;
+    color: white;
+    width: 25vw;
+    height: 700px;
+}
+#prawy{
+    height: 700px;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+#form{
+    padding: 30px;
+    
+    line-height: 3;
+}
+#form:hover{
+    background-color: deepskyblue;
+}
+#title{
+    background-color: royalblue;
+    height: 100px;
+    width: 75%;
+    text-align: center;
+}
+#formularz{
+    background-color: steelblue;
+    height: 300px;
+    width: 75%;
+}
+#image{
+    background-color: royalblue;
+    height: 300px;
+    width: 75%;
+    text-align: center;
+}
+#footer{
+    width: 100vw;
+    height: 100px;
+    background-color: steelblue;
+    padding: 20px;
+    display: flex;
+    vertical-align: center;
+}
+#footer *{
+    margin: 0 auto;
+}
+h1{
+    letter-spacing: 5px;
+}
