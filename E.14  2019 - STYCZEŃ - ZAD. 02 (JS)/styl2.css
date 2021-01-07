@@ -1,0 +1,76 @@
+table,
+th,
+td {
+  border: 2px solid #69293a;
+  border-collapse: collapse;
+  padding: 7px;
+}
+html body {
+  font-family: Georgia;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  width: 100vw;
+}
+#baner {
+  width: 100%;
+  background-color: #824555;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+#panels {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#first-panel {
+  background-color: #a26475;
+  color: white;
+  width: 30%;
+  height: 300px;
+}
+#second-panel {
+  background-color: #a26475;
+  color: white;
+  width: 30%;
+  height: 300px;
+}
+#third-panel {
+  background-color: #a26475;
+  color: white;
+  width: 40%;
+  height: 300px;
+  text-align: right;
+}
+#main-panel {
+  width: 100%;
+
+  background-color: #f0eae2;
+  padding: 50px;
+}
+footer {
+  width: 100%;
+  background-color: #824555;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+ul {
+  list-style-type: square;
+}
+button{
+    width: 10px;
+    height: 20px;
+}
+#first-button {
+  background-color: red;
+}
+#second-button {
+  background-color: green;
+}
+#third-button {
+  background-color: blue;
+}
