@@ -7,16 +7,7 @@
     <link rel="stylesheet" href="styl2.css" />
   </head>
   <body>
-    <script>
-      const setColor = (event) => {
-        const editParagraph = document.getElementById("format");
-        const size = document.getElementById("prc").value;
-        const family = document.getElementById("styl").value != "line" ? "italic" : "normal";
-        editParagraph.style.fontStyle = family;
-        editParagraph.style.fontSize = size + "%";
-        editParagraph.style.color = event.target.value;
-      };
-    </script>
+    <script src="egzamin.js"></script>
     <div id="baner"><h1>Formatowanie dokumentów HTML</h1></div>
     <div id="panels">
       <div id="first-panel">
