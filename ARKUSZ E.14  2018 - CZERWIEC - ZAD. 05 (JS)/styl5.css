@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+#baner{
+    background-color: #1C59A7;
+    color: white;
+    text-align: center;
+}
+#panele{
+    display: flex;
+    flex-direction: row;
+}
+#lewy{
+   background-color: #3A70B5;
+   width: 33%;
+   height: 200px;
+}
+#srodkowy{
+    background-color: #5A8AC8;
+    width: 33%;
+    height: 200px;
+}
+#prawy{
+    background-color: #86ACDD;
+    width: 34%;
+    height: 200px;
+    text-align: center;
+}
+#prawy a{
+    background-color: yellow;
+    color: blue;
+    padding: 10px;
+
+}
+#dolny{
+    text-align: center;
+    background-color: #86ACDD;
+    height: 300px;
+}
+footer{
+    background-color: #1C59A7;
+    color: white;
+}

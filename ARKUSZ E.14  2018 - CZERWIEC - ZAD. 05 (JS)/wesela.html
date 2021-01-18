@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styl5.css" />
+  </head>
+  <body>
+    <script>
+      const clickHandler = () => {
+        const guestAmount = document.getElementById("liczba").value;
+        const check = document.getElementById("check").checked;
+        const onePErson = 100;
+        const wynik = document.getElementById("wynik");
+        let prize = guestAmount * onePErson;
+        if (check) {
+          prize += prize * 0.3;
+        }
+        wynik.innerHTML=`Koszt Twojego wesela to ${prize} złotych`;
+      };
+    </script>
+    <section id="baner">
+      <h1>
+        <img src="logo.png" height="70px" alt="" />Dom Weselny zorganizuje
+        wesele za Ciebie<img src="logo.png" height="70px" alt="" />
+      </h1>
+    </section>
+    <section id="panele">
+      <section id="lewy">
+        <h2>Dom Weselny</h2>
+        <a>ul. Przemysłowa 5</a>
+        <a>Kalisz</a>
+        <a href="logo.png">pobierz logo</a>
+      </section>
+      <section id="srodkowy">
+        <h2>Oferujemy</h2>
+        <ol>
+          <li>Wesela</li>
+          <li>Bankiety</li>
+          <li>Konferencje</li>
+        </ol>
+      </section>
+      <section id="prawy">
+        <a href="regulamin.txt">czytaj regulamin</a>
+      </section>
+    </section>
+    <section id="dolny">
+      <h2>Ile będzie kosztowało moje wesele?</h2>
+      <label>Podaj liczbę gości: </label
+      ><input type="number" name="liczba" id="liczba" /><br />
+      <input type="checkbox" name="check" id="check" />Wesele z poprawinami?<br />
+      <button onclick="clickHandler()">Oblicz koszt</button>
+      <p id="wynik"></p>
+    </section>
+    <footer>Stronę internetową opracował: <i>012342502377</i></footer>
+  </body>
+</html>
